@@ -13,7 +13,7 @@ One test plan from lab to production - same code, same workflow.
 
 <div class="grid cards" markdown>
 
-- **Plain Python**
+- <span style="font-size: 1.5em;">&#x1F40D;&#xFE0E;</span>&nbsp; **Plain Python**
   
     ---
 
@@ -106,6 +106,5 @@ HardPy is used by engineers building production test rigs and end-of-line statio
     ---
 
 </div>
-
 
 
