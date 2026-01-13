@@ -1,40 +1,78 @@
-
 # Hardware testing that simply works
 
-Write your tests for hardware in Python (pytest) and create a reliable testing stand in minutes – with tester web UI, test data collection, for all OS.
+Write your tests for hardware in Python (pytest) and run them through a guided operator UI. Collect data locally or in StandCloud. Works on Windows, Linux, and SBCs.
+
+[Get started](getting_started.md){ .md-button .md-button--primary }
+[View documentation](documentation/index.md){ .md-button }
+
+<!-- ![HardPy operator panel](img/hardpy_panel.gif){ width="900" } -->
 
 ## Everything you need for testing
-Optional subhead: One test plan from lab to production — same code, same workflow.
 
-## It’s just Python
-Write test plans in plain Python. No DSL — easy to review, version, and maintain.
+One test plan from lab to production - same code, same workflow.
 
-## Operator-friendly steps
-Inline instructions, images, confirmations, and data entry. The operator sees exactly what to do — nothing extra.
+<div class="grid cards" markdown>
 
-## Reusable drivers & building blocks
-Connect instruments through drivers/adapters and reuse steps across products. Build test flows like LEGO.
+- **Plain Python**
+  
+    ---
 
-## Production-ready
-Runs on PCs and SBCs (e.g., Raspberry Pi), works offline, fits CI. Great for fixtures, jigs, and EOL lines.
+    Write test plans in plain Python. No DSL - easy to review, version, and maintain.
 
-## Traceability by serial number
-Store results and measurements in a structured way: serial → run → steps → metrics. Easy to debug and audit.
+    ---
 
-# More than just a test script
 
-## Built-in operator flow
+- **Operator-friendly steps**
 
-HardPy turns your test plan into a guided workflow: step-by-step instructions, photos, confirmations, and data entry. Operators follow the same process every run — less training, fewer mistakes, cleaner results.
+    ---
 
-→ Learn more
+    Inline instructions, images, confirmations, and data entry. Operators see exactly what to do.
 
-## Code annotations (steps that explain themselves)
+    ---
 
-Some tests need context: what to connect, what “good” looks like, or when to stop. HardPy lets you attach rich notes to each step — text, images, tables, and callouts — right next to the code that runs the measurement.
+- **Reusable drivers and building blocks**
+  
+    ---
 
-→ Learn more
+    Connect instruments through drivers/adapters and reuse steps across products.
+
+    ---
+
+- **Production-ready**
+  
+    ---
+
+    Runs on PCs and SBCs (e.g., Raspberry Pi), works offline, and fits CI.
+
+    ---
+
+- **Traceability by serial number**
+  
+    ---
+
+    Store results and measurements in a structured way: serial, run, steps, metrics.
+
+    ---
+
+- **Flexible storage**
+  
+    ---
+
+    Save results in CouchDB or JSON, and optionally push to StandCloud.
+    
+    ---
+
+</div>
+
+## How it works
+
+1. Write tests in pytest.
+2. Add operator steps and annotations.
+3. Run from the HardPy operator panel.
+4. Store results in CouchDB, JSON, or StandCloud.
 
 ## StandCloud analytics (optional)
 
-Push test results to StandCloud: traceability by serial number, yield by batch, failure trends, and reruns. Catch production issues early and optimize your test plan with real data.
+Track yield, failures, and reruns with production-ready dashboards and serial-level traceability.
+
+[Go to StandCloud](https://standcloud.io){ .md-button }
