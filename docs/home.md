@@ -59,20 +59,53 @@ One test plan from lab to production - same code, same workflow.
     ---
 
     Save results in CouchDB or JSON, and optionally push to StandCloud.
-    
+
+    ---
+
+- **StandCloud analytics (optional)**
+
+    ---
+
+    Track yield, failures, and reruns with production-ready dashboards and serial-level traceability.
+    [Go to StandCloud](https://standcloud.io){ .md-button }
     ---
 
 </div>
 
-## How it works
 
-1. Write tests in pytest.
-2. Add operator steps and annotations.
-3. Run from the HardPy operator panel.
-4. Store results in CouchDB, JSON, or StandCloud.
+## Trusted by teams shipping hardware
 
-## StandCloud analytics (optional)
+HardPy is used by engineers building production test rigs and end-of-line stations. Pair it with StandCloud to store results by serial number, track yield, and catch failure trends early.
 
-Track yield, failures, and reruns with production-ready dashboards and serial-level traceability.
+[Get started](getting_started.md){ .md-button .md-button--primary }
 
-[Go to StandCloud](https://standcloud.io){ .md-button }
+<div class="grid cards" markdown>
+
+- **Manufacturing test engineer**
+  
+    ---
+
+    “HardPy made our test flow consistent across operators — fewer mistakes, cleaner logs.”
+
+    ---
+
+- **Hardware lead**
+
+    ---
+
+    “Serial-level traceability in StandCloud helped us spot a failing step in the first day.”
+
+    ---
+
+- **Production engineer**
+  
+    ---
+
+    Quote 3: “We reused the same test plan from the lab to EOL with minimal changes.”
+
+    ---
+
+</div>
+
+
+
