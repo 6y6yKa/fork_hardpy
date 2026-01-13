@@ -2,10 +2,8 @@
 
 Write your tests for hardware in Python (pytest) and run them through a guided operator UI. Collect data locally or in StandCloud. Works on Windows, Linux, and SBCs.
 
-[Get started](getting_started.md){ .md-button .md-button--primary }
-[View documentation](documentation/index.md){ .md-button }
-
-<!-- ![HardPy operator panel](img/hardpy_panel.gif){ width="900" } -->
+[Get started](getting_started.md){ .md-button }
+<!-- [View documentation](documentation/index.md){ .md-button } -->
 
 ## Everything you need for testing
 
@@ -77,8 +75,6 @@ One test plan from lab to production - same code, same workflow.
 
 HardPy is used by engineers building production test rigs and end-of-line stations. Pair it with StandCloud to store results by serial number, track yield, and catch failure trends early.
 
-[Get started](getting_started.md){ .md-button .md-button--primary }
-
 <div class="grid cards" markdown>
 
 - **Manufacturing test engineer**
@@ -106,3 +102,5 @@ HardPy is used by engineers building production test rigs and end-of-line statio
     ---
 
 </div>
+
+[Get started](getting_started.md){ .md-button }
