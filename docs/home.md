@@ -1,3 +1,9 @@
+---
+hide:
+  - toc
+  - navigation
+---
+
 <div class="home-hero" markdown>
 
 # Hardware testing that simply works
@@ -103,7 +109,7 @@ HardPy is used by engineers building production test rigs and end-of-line statio
   
     ---
 
-    Quote 3: “We reused the same test plan from the lab to EOL with minimal changes.”
+    “We reused the same test plan from the lab to EOL with minimal changes.”
 
     ---
 
