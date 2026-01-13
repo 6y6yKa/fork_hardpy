@@ -2,6 +2,8 @@
 hide:
   - toc
   - navigation
+  - edit
+  - view
 ---
 
 <div class="home-hero" markdown>
