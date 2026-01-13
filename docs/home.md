@@ -1,9 +1,15 @@
+<div class="home-hero" markdown>
+
 # Hardware testing that simply works
 
 Write your tests for hardware in Python (pytest) and run them through a guided operator UI. Collect data locally or in StandCloud. Works on Windows, Linux, and SBCs.
 
+<div class="home-cta" markdown>
 [Get started](getting_started.md){ .md-button }
 <!-- [View documentation](documentation/index.md){ .md-button } -->
+</div>
+
+</div>
 
 ## Everything you need for testing
 
