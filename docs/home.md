@@ -13,7 +13,7 @@ One test plan from lab to production - same code, same workflow.
 
 <div class="grid cards" markdown>
 
-- <span style="font-size: 1.3em;">&#x1F40D;&#xFE0E;</span>&nbsp; **Plain Python**
+- **:material-language-python: Plain Python**
   
     ---
 
@@ -22,7 +22,7 @@ One test plan from lab to production - same code, same workflow.
     ---
 
 
-- <span style="font-size: 1.3em;">&#x1F4CB;&#xFE0E;</span>&nbsp; **Operator-friendly steps**
+- **:material-clipboard-check-outline: Operator-friendly steps**
 
     ---
 
@@ -30,7 +30,7 @@ One test plan from lab to production - same code, same workflow.
 
     ---
 
-- <span style="font-size: 1.3em;">&#x1F9F1;&#xFE0E;</span>&nbsp; **Reusable drivers and building blocks**
+- **:material-toy-brick-outline: Reusable drivers and building blocks**
   
     ---
 
@@ -38,7 +38,7 @@ One test plan from lab to production - same code, same workflow.
 
     ---
 
-- <span style="font-size: 1.3em;">&#x1F3ED;&#xFE0E;</span>&nbsp; **Production-ready**
+- **:material-factory: Production-ready**
   
     ---
 
@@ -46,7 +46,7 @@ One test plan from lab to production - same code, same workflow.
 
     ---
 
-- <span style="font-size: 1.3em;">&#x1F3F7;&#xFE0E;</span>&nbsp; **Traceability by serial number**
+- **:material-tag-outline: Traceability by serial number**
   
     ---
 
@@ -54,7 +54,7 @@ One test plan from lab to production - same code, same workflow.
 
     ---
 
-- <span style="font-size: 1.3em;">&#x1F5C4;&#xFE0E;</span>&nbsp; **Flexible storage**
+- **:material-database-outline: Flexible storage**
   
     ---
 
@@ -62,7 +62,7 @@ One test plan from lab to production - same code, same workflow.
 
     ---
 
-- <span style="font-size: 1.3em;">&#x1F4CA;&#xFE0E;</span>&nbsp; **StandCloud analytics (optional)**
+- **:material-chart-line: StandCloud analytics (optional)**
 
     ---
 
@@ -106,4 +106,3 @@ HardPy is used by engineers building production test rigs and end-of-line statio
     ---
 
 </div>
-
