@@ -77,7 +77,7 @@ HardPy is used by engineers building production test rigs and end-of-line statio
 
 <div class="grid cards" markdown>
 
-- **Manufacturing test engineer**
+- **:material-account-hard-hat: Manufacturing test engineer**
   
     ---
 
@@ -85,7 +85,7 @@ HardPy is used by engineers building production test rigs and end-of-line statio
 
     ---
 
-- **Hardware lead**
+- **:material-account-tie: Hardware lead**
 
     ---
 
@@ -93,7 +93,7 @@ HardPy is used by engineers building production test rigs and end-of-line statio
 
     ---
 
-- **Production engineer**
+- **:material-account-cog: Production engineer**
   
     ---
 
