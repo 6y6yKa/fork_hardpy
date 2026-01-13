@@ -93,7 +93,7 @@ HardPy is used by engineers building production test rigs and end-of-line statio
   
     ---
 
-    “HardPy made our test flow consistent across operators — fewer mistakes, cleaner logs.”
+    *“HardPy made our test flow consistent across operators — fewer mistakes, cleaner logs.”*
 
     ---
 
@@ -101,7 +101,7 @@ HardPy is used by engineers building production test rigs and end-of-line statio
 
     ---
 
-    “Serial-level traceability in StandCloud helped us spot a failing step in the first day.”
+    *“Serial-level traceability in StandCloud helped us spot a failing step in the first day.”*
 
     ---
 
@@ -109,7 +109,7 @@ HardPy is used by engineers building production test rigs and end-of-line statio
   
     ---
 
-    “We reused the same test plan from the lab to EOL with minimal changes.”
+    *“We reused the same test plan from the lab to EOL with minimal changes.”*
 
     ---
 
