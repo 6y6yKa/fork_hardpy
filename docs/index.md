@@ -19,6 +19,10 @@ Write your tests for hardware in Python (pytest) and run them through a guided o
 
 </div>
 
+<h1 align="center">
+    <img src="https://raw.githubusercontent.com/everypinio/hardpy/main/docs/img/hardpy_panel.gif" alt="hardpy panel" style="width:600;">
+</h1>
+
 ## Everything you need for testing
 
 <div class="grid cards" markdown>
