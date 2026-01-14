@@ -13,7 +13,7 @@ hide:
     <div class="hero-copy">
       <h1>Hardware testing that simply works</h1>
       <p>Write your tests for hardware in Python (pytest) and run them through a guided operator UI. Collect data locally or in StandCloud. Works on Windows, Linux, and SBCs.</p>
-      <p><a href="getting_started.md" class="md-button md-button--primary">Get started</a></p>
+      <p><a href="getting_started/" class="md-button">Get started</a></p>
     </div>
     <div class="hero-media">
       <img src="https://raw.githubusercontent.com/everypinio/hardpy/main/docs/img/hardpy_panel.gif" alt="HardPy panel">
