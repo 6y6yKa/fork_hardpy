@@ -84,13 +84,22 @@
   }
 
   /* Cards (Material: grid cards) on Home only. */
-  .hp-home .md-typeset .grid.cards>ul>li {
+  .hp-home .md-typeset .grid.cards>ul>li,
+  .hp-home .grid.cards>ul>li {
     border: 1px solid var(--hp-border);
     border-radius: 16px;
+    background: rgba(124, 58, 237, 0.04);
   }
 
-  .hp-home .md-typeset .grid.cards>ul>li:hover {
+  .hp-home .md-typeset .grid.cards>ul>li:hover,
+  .hp-home .grid.cards>ul>li:hover {
     border-color: rgba(124, 58, 237, 0.30);
+    background: rgba(124, 58, 237, 0.07);
+  }
+
+  [data-md-color-scheme="slate"] .hp-home .md-typeset .grid.cards>ul>li,
+  [data-md-color-scheme="slate"] .hp-home .grid.cards>ul>li {
+    background: rgba(124, 58, 237, 0.08);
   }
 
   /* Material icons (if you use :material-* in cards). */
