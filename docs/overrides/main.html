@@ -1,65 +1,109 @@
 {% extends "base.html" %}
 
 {% block announce %}
-  <style>
-    @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=IBM+Plex+Sans:wght@400;500&display=swap");
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=IBM+Plex+Sans:wght@400;500&display=swap");
 
-    .announce-banner {
-      font-weight: 600;
-      text-align: center;
-    }
+  .announce-banner {
+    font-weight: 600;
+    text-align: center;
+  }
 
-    .announce-banner a {
-      text-decoration: underline;
-    }
+  .announce-banner a {
+    text-decoration: underline;
+  }
+  
+  .hp-home {
+    /* Brand */
+    --hp-primary: #7C3AED;
+    /* purple */
+    --hp-accent: #06B6D4;
+    /* teal/cyan */
 
-    /* .md-typeset .grid.cards .twemoji {
-      font-size: 1.3em;
-      vertical-align: -0.1em;
-    } */
+    /* Surfaces */
+    --hp-hero-bg: #FAFAFF;
+    --hp-hero-grad: rgba(124, 58, 237, 0.10);
 
-    .home-hero {
-      padding: 2rem 2.5rem;
-      margin: 1.5rem 0 2rem;
-      border-radius: 18px;
-      background: #f6f7f9;
-      border: 1px solid rgba(0, 0, 0, 0.06);
-    }
+    /* Text */
+    --hp-text: #0F172A;
+    --hp-muted: #475569;
 
-    [data-md-color-scheme="slate"] .home-hero {
-      background: #1f232a;
-      border-color: rgba(255, 255, 255, 0.08);
-    }
+    /* Lines */
+    --hp-border: rgba(17, 24, 39, 0.10);
+  }
 
-    .home-hero h1 {
-      margin-top: 0;
-      font-family: "Space Grotesk", "IBM Plex Sans", sans-serif;
-      letter-spacing: -0.02em;
-      font-weight: 700;
-    }
+  /* Hero container on Home. */
+  .hp-home .hero {
+    background:
+      linear-gradient(180deg, var(--hp-hero-grad), transparent 70%),
+      var(--hp-hero-bg);
+    border: 1px solid var(--hp-border);
+    border-radius: 16px;
+  }
 
-    .home-hero p {
-      font-family: "IBM Plex Sans", sans-serif;
-      font-size: 1.05rem;
-      line-height: 1.6;
-    }
+  /* Links only on Home. */
+  .hp-home .md-typeset a {
+    color: var(--hp-primary);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+  }
 
-    .home-cta {
-      display: flex;
-      gap: 0.6rem;
-      flex-wrap: wrap;
-      margin-top: 1rem;
-    }
+  .hp-home .md-typeset a:hover {
+    color: var(--hp-accent);
+  }
 
-    @media (max-width: 600px) {
-      .home-hero {
-        padding: 1.5rem;
-      }
-    }
-  </style>
-  <div class="announce-banner">
-    <span>Connect HardPy to </span>
-    <a href="https://standcloud.io">StandCloud</a>
-    <span> and start tracking production test data! </span>
-  </div>
+  /* Material buttons (Home only). */
+  .hp-home .md-typeset .md-button--primary {
+    background-color: var(--hp-primary);
+    border-color: var(--hp-primary);
+    color: #fff;
+  }
+
+  .hp-home .md-typeset .md-button--primary:hover {
+    background-color: #6D28D9;
+    /* slightly darker purple */
+    border-color: #6D28D9;
+  }
+
+  .hp-home .md-typeset .md-button {
+    border-color: rgba(124, 58, 237, 0.35);
+    color: var(--hp-primary);
+  }
+
+  .hp-home .md-typeset .md-button:hover {
+    border-color: var(--hp-primary);
+    color: var(--hp-primary);
+  }
+
+  /* Cards (Material: grid cards) on Home only. */
+  .hp-home .md-typeset .grid.cards>ul>li {
+    border: 1px solid var(--hp-border);
+    border-radius: 16px;
+  }
+
+  .hp-home .md-typeset .grid.cards>ul>li:hover {
+    border-color: rgba(124, 58, 237, 0.30);
+  }
+
+  /* Material icons (if you use :material-* in cards). */
+  .hp-home .md-typeset .twemoji,
+  .hp-home .md-typeset .twemoji svg {
+    fill: var(--hp-primary);
+  }
+
+  /* Headings and accents (optional). */
+  .hp-home .md-typeset h1,
+  .hp-home .md-typeset h2 {
+    color: var(--hp-text);
+  }
+
+  .hp-home .md-typeset p {
+    color: var(--hp-muted);
+  }
+</style>
+<div class="announce-banner">
+  <span>Connect HardPy to </span>
+  <a href="https://standcloud.io">StandCloud</a>
+  <span> and start tracking production test data! </span>
+</div>
 {% endblock %}

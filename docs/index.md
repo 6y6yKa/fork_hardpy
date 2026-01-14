@@ -4,16 +4,18 @@ hide:
   - navigation
 ---
 
-<div class="home-hero" markdown>
+<div class="hp-home" markdown>
+
+<div class="hero" markdown>
 
 # Hardware testing that simply works
 
 Write your tests for hardware in Python (pytest) and run them through a guided operator UI. Collect data locally or in StandCloud. Works on Windows, Linux, and SBCs.
 
-<div class="home-cta" markdown>
+<!-- <div class="home-cta" markdown> -->
 [Get started](getting_started.md){ .md-button }
 <!-- [View documentation](documentation/index.md){ .md-button } -->
-</div>
+<!-- </div> -->
 
 </div>
 
@@ -116,3 +118,5 @@ HardPy is used by engineers building production test rigs and end-of-line statio
 </div>
 
 [Get started](getting_started.md){ .md-button }
+
+</div>
