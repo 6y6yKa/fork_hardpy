@@ -32,6 +32,14 @@
     --hp-border: rgba(17, 24, 39, 0.10);
   }
 
+  [data-md-color-scheme="slate"] .hp-home {
+    --hp-hero-bg: #1b1f26;
+    --hp-hero-grad: rgba(124, 58, 237, 0.18);
+    --hp-text: #e2e8f0;
+    --hp-muted: #94a3b8;
+    --hp-border: rgba(148, 163, 184, 0.22);
+  }
+
   /* Hero container on Home. */
   .hp-home .hero {
     background:
@@ -91,14 +99,12 @@
     background: rgba(124, 58, 237, 0.04);
   }
 
-  .hp-home .md-typeset .grid.cards>ul>li:hover,
-  .hp-home .grid.cards>ul>li:hover {
+  .hp-home .md-typeset .grid.cards>ul>li:hover {
     border-color: rgba(124, 58, 237, 0.30);
     background: rgba(124, 58, 237, 0.07);
   }
 
-  [data-md-color-scheme="slate"] .hp-home .md-typeset .grid.cards>ul>li,
-  [data-md-color-scheme="slate"] .hp-home .grid.cards>ul>li {
+  [data-md-color-scheme="slate"] .hp-home .md-typeset .grid.cards>ul>li {
     background: rgba(124, 58, 237, 0.08);
   }
 
@@ -114,8 +120,32 @@
     color: var(--hp-text);
   }
 
+  .hp-home .md-typeset h1 {
+    font-size: 2.4rem;
+    line-height: 1.15;
+  }
+
+  .hp-home .md-typeset h2 {
+    font-size: 1.85rem;
+    line-height: 1.2;
+  }
+
+  .hp-home .md-typeset h3 {
+    font-size: 1.4rem;
+  }
+
   .hp-home .md-typeset p {
     color: var(--hp-muted);
+  }
+
+  @media (max-width: 600px) {
+    .hp-home .md-typeset h1 {
+      font-size: 2rem;
+    }
+
+    .hp-home .md-typeset h2 {
+      font-size: 1.6rem;
+    }
   }
 </style>
 <div class="announce-banner">
