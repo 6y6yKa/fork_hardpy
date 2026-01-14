@@ -4,24 +4,22 @@ hide:
   - navigation
 ---
 
+# Hardware testing that simply works { .hp-home-title }
+
 <div class="hp-home" markdown>
 
-<div class="hero" markdown>
-
-# Hardware testing that simply works
-
-Write your tests for hardware in Python (pytest) and run them through a guided operator UI. Collect data locally or in StandCloud. Works on Windows, Linux, and SBCs.
-
-<!-- <div class="home-cta" markdown> -->
-[Get started](getting_started.md){ .md-button }
-<!-- [View documentation](documentation/index.md){ .md-button } -->
-<!-- </div> -->
-
+<div class="hero">
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <h1>Hardware testing that simply works</h1>
+      <p>Write your tests for hardware in Python (pytest) and run them through a guided operator UI. Collect data locally or in StandCloud. Works on Windows, Linux, and SBCs.</p>
+      <p><a href="getting_started.md" class="md-button md-button--primary">Get started</a></p>
+    </div>
+    <div class="hero-media">
+      <img src="https://raw.githubusercontent.com/everypinio/hardpy/main/docs/img/hardpy_panel.gif" alt="HardPy panel">
+    </div>
+  </div>
 </div>
-
-<h1 align="center">
-    <img src="https://raw.githubusercontent.com/everypinio/hardpy/main/docs/img/hardpy_panel.gif" alt="hardpy panel" style="width:600;">
-</h1>
 
 ## Everything you need for testing
 
