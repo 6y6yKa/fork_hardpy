@@ -21,8 +21,6 @@ Write your tests for hardware in Python (pytest) and run them through a guided o
 
 ## Everything you need for testing
 
-One test plan from lab to production - same code, same workflow.
-
 <div class="grid cards" markdown>
 
 - **:material-language-python: Plain Python**
